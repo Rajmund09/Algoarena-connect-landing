@@ -25,7 +25,6 @@ This project was created to serve as a **community connection page** for a gamin
 ## 📂 Project Structure
 nexus-arena-community-hub/
 │── index.html
-│── style.css
 │── README.md
 
 
