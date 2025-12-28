@@ -12,7 +12,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #1a1a1a, #333, #555); /* Aesthetic Dark Gradient */
+    background: linear-gradient(135deg, #1a1a1a, #333, #555);
+    /* Aesthetic Dark Gradient */
     padding: 15px 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
@@ -21,13 +22,15 @@ header {
 /* Logo Styling */
 .logo h1 {
     font-size: 24px;
-    color: #FFD700; /* Gold for a premium feel */
+    color: #FFD700;
+    /* Gold for a premium feel */
     margin: 0;
 }
 
 .logo p {
     font-size: 12px;
-    color: #ddd; /* Light gray for a subtle effect */
+    color: #ddd;
+    /* Light gray for a subtle effect */
     margin: 0;
 }
 
@@ -108,22 +111,30 @@ nav ul li a:hover::after {
 /* Carousel Container */
 .carousel {
     position: relative;
-    width: 80%; /* Adjust width */
+    width: 80%;
+    /* Adjust width */
     max-width: 600px;
-    height: 350px; /* Fixed height */
+    height: 350px;
+    /* Fixed height */
     margin: auto;
-    border-radius: 15px; /* Rounded corners */
-    overflow: hidden; /* Ensures images fit properly */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Professional shadow effect */
+    border-radius: 15px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Ensures images fit properly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    /* Professional shadow effect */
 }
 
 /* Carousel Images */
 .carousel img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the images fit properly */
-    display: none; /* Hide all images initially */
-    border-radius: 10px; /* Optional to make it match the container */
+    object-fit: cover;
+    /* Ensures the images fit properly */
+    display: none;
+    /* Hide all images initially */
+    border-radius: 10px;
+    /* Optional to make it match the container */
 }
 
 /* Show only the first image initially */
@@ -137,7 +148,8 @@ nav ul li a:hover::after {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.3); /* Transparent white */
+    background: rgba(255, 255, 255, 0.3);
+    /* Transparent white */
     color: black;
     padding: 12px;
     border: none;
@@ -150,12 +162,15 @@ nav ul li a:hover::after {
 /* Button Hover Effect */
 .carousel .prev:hover,
 .carousel .next:hover {
-    background: rgba(255, 255, 255, 0.6); /* More visible on hover */
-    transform: scale(1.1); /* Slightly bigger */
+    background: rgba(255, 255, 255, 0.6);
+    /* More visible on hover */
+    transform: scale(1.1);
+    /* Slightly bigger */
 }
 
 /* Cursor Effect */
-.carousel .prev, .carousel .next {
+.carousel .prev,
+.carousel .next {
     cursor: pointer;
 }
 
@@ -267,6 +282,7 @@ nav ul li a:hover::after {
     width: 20px;
     margin-right: 10px;
 }
+
 .contact {
     display: flex;
     justify-content: center;
@@ -360,7 +376,7 @@ nav ul li a:hover::after {
     padding: 40px 0;
     white-space: nowrap;
     position: relative;
-    box-shadow:  100px 100px 100px 100px;
+    box-shadow: 100px 100px 100px 100px;
 }
 
 .partners-wrapper {
@@ -393,6 +409,7 @@ nav ul li a:hover::after {
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-100%);
     }
@@ -409,7 +426,8 @@ nav ul li a:hover::after {
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #131313, #1a1a1a, #262626); /* Professional Black Gradient */
+    background: linear-gradient(135deg, #131313, #1a1a1a, #262626);
+    /* Professional Black Gradient */
     color: #FFFFFF;
     padding: 40px 0;
     font-family: Arial, sans-serif;
@@ -429,7 +447,8 @@ footer {
 
 .footer-column h3 {
     font-size: 18px;
-    color: #FFD700; /* Gold for headings */
+    color: #FFD700;
+    /* Gold for headings */
     margin-bottom: 15px;
 }
 
@@ -483,7 +502,8 @@ footer {
 .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(135deg, #0D0D0D, #1A1A1A); /* Darker gradient */
+    background: linear-gradient(135deg, #0D0D0D, #1A1A1A);
+    /* Darker gradient */
     margin-top: 20px;
 }
 
@@ -495,6 +515,7 @@ footer {
     color: #FFD700;
     font-weight: bold;
 }
+
 /* Responsive Styling */
 @media screen and (max-width: 1024px) {
     header {
@@ -521,7 +542,8 @@ footer {
     }
 
     .contact-image {
-        display: none; /* Hide image on smaller screens */
+        display: none;
+        /* Hide image on smaller screens */
     }
 
     .contact-form {
@@ -598,5 +620,3 @@ footer {
         margin: 5px;
     }
 }
-
-
